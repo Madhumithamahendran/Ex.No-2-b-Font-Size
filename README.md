@@ -2,16 +2,22 @@
 # Ex.No:2 Develop an application that uses GUI Components with Fonts and Colors
 
 
+
 ## AIM:
+
 To develop an application that uses GUI Components with Fonts and Colors using android studio.
 
+
 ## EQUIPMENTS REQUIRED:
+
 
 Android Studio(Min. required Artic Fox)
 
 
 ## ALGORITHM:
+
 Step 1: Create a New Android Project:
+
               • Click New in the toolbar.
               • In the window that appears, open the Android folder, select Android Application Project,
               and click next.
@@ -20,8 +26,10 @@ Step 1: Create a New Android Project:
               • Choose a launcher icon for your application and then select Blank Activity and then click
               Next
               • Provide the desired Activity name for your project and then click Finish.
+              
 
 Step 2: Create a New AVD (Android Virtual Device):
+
         • click Android Virtual Device Manager from the toolbar.
         • In the Android Virtual Device Manager panel, click New.
         • Fill in the details for the AVD. Give it a name, a platform target, an SD card size, and
@@ -41,7 +49,9 @@ Step 6:Close the Android project.
 
 
 ## Program:
+
  ```
+
 /*
 Program to Develop an application that uses Font Size using Android Studio .
 Developed by: 
@@ -84,9 +94,11 @@ Developed by  : MADHUMITHA M
     android:text="Change color"
     android:textSize="25sp" />
     </LinearLayout>
+
 ```
 
 ## MainActivity.java:
+
 ```
 package com.example.fontsize;
 
@@ -152,12 +164,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+
 ```
 
 
 ## Output:
 
+
 ![image](https://github.com/user-attachments/assets/a67b6a61-2319-4bf0-87fd-11ebc0c5c103)
 
+
 ## Result:
+
+
 Thus, the program for android application, Font Size and color was executed successfully using Android Studio.
