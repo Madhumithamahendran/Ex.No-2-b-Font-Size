@@ -30,6 +30,7 @@ Step 1: Create a New Android Project:
               • Choose a launcher icon for your application and then select Blank Activity and then click
               Next
               • Provide the desired Activity name for your project and then click Finish.
+              
 Step 2: Create a New AVD (Android Virtual Device):
         • click Android Virtual Device Manager from the toolbar.
         • In the Android Virtual Device Manager panel, click New.
@@ -60,71 +61,41 @@ RegisterNumber: 212222220020
 Developed by  : MADHUMITHA M
 */
 ```
-
 ## activity_main.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     android:orientation="vertical"
-
     android:layout_width="match_parent"
-
     android:layout_height="match_parent">
 
     <TextView
-
     android:id="@+id/textView"
-
     android:layout_width="match_parent"
-
     android:layout_height="wrap_content"
-
     android:layout_margin="30dp"
-
     android:gravity="center"
-
     android:text="Hello World!"
-
     android:textSize="25sp"
-
     android:textStyle="bold" />
 
     <Button
-
     android:id="@+id/button1"
-
     android:layout_width="match_parent"
-
     android:layout_height="wrap_content"
-
     android:layout_margin="20dp"
-
     android:gravity="center"
-
     android:text="Change font size"
-
     android:textSize="25sp" />
-
     <Button
-
     android:id="@+id/button2"
-
     android:layout_width="match_parent"
-
     android:layout_height="wrap_content"
-
     android:layout_margin="20dp"
-
     android:gravity="center"
-
     android:text="Change color"
-
     android:textSize="25sp" />
-
     </LinearLayout>
-
 ```
 
 ## MainActivity.java:
@@ -197,14 +168,9 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-
 ## Output:
-
-
 ![image](https://github.com/user-attachments/assets/a67b6a61-2319-4bf0-87fd-11ebc0c5c103)
 
 
 ## Result:
-
-
 Thus, the program for android application, Font Size and color was executed successfully using Android Studio.
