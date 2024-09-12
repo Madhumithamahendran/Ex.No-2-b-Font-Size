@@ -1,26 +1,15 @@
-
 # Ex.No:2 Develop an application that uses GUI Components with Fonts and Colors
 
 
-
-
 ## AIM:
-
-
 To develop an application that uses GUI Components with Fonts and Colors using android studio.
 
-
-
 ## EQUIPMENTS REQUIRED:
-
-
 
 Android Studio(Min. required Artic Fox)
 
 
-
 ## ALGORITHM:
-
 Step 1: Create a New Android Project:
               • Click New in the toolbar.
               • In the window that appears, open the Android folder, select Android Application Project,
@@ -30,7 +19,7 @@ Step 1: Create a New Android Project:
               • Choose a launcher icon for your application and then select Blank Activity and then click
               Next
               • Provide the desired Activity name for your project and then click Finish.
-              
+
 Step 2: Create a New AVD (Android Virtual Device):
         • click Android Virtual Device Manager from the toolbar.
         • In the Android Virtual Device Manager panel, click New.
@@ -51,57 +40,54 @@ Step 6:Close the Android project.
 
 
 ## Program:
-
  ```
-
 /*
 Program to Develop an application that uses Font Size using Android Studio .
-Developed by: 
-RegisterNumber: 212222220020
-Developed by  : MADHUMITHA M
+Developed by: MADHUMITHA M
+RegisterNumber:  212222220020
 */
-```
-## activity_main.xml:
-```
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
-    android:id="@+id/textView"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="30dp"
-    android:gravity="center"
-    android:text="Hello World!"
-    android:textSize="25sp"
-    android:textStyle="bold" />
-
-    <Button
-    android:id="@+id/button1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="20dp"
-    android:gravity="center"
-    android:text="Change font size"
-    android:textSize="25sp" />
-    <Button
-    android:id="@+id/button2"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="20dp"
-    android:gravity="center"
-    android:text="Change color"
-    android:textSize="25sp" />
-    </LinearLayout>
 ```
 
 ## MainActivity.java:
-
 ```
-package com.example.fontsize;
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+ 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Change font size"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Change color"
+        android:textSize="25sp" />
+</LinearLayout>
+```
+
+## activity_main.xml:
+```
+package com.example.demo;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -110,7 +96,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.fontsize.R;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -165,11 +150,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
-
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/a67b6a61-2319-4bf0-87fd-11ebc0c5c103)
+
+![image](https://github.com/user-attachments/assets/6e8af878-1a8f-4947-a192-3c15cd78f8e0)
 
 
 ## Result:
