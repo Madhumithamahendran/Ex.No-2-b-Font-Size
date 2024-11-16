@@ -1,11 +1,10 @@
+# DATE : 26.08.2024
 # Ex.No:2 Develop an application that uses GUI Components with Fonts and Colors
-
 
 ## AIM:
 To develop an application that uses GUI Components with Fonts and Colors using android studio.
 
 ## EQUIPMENTS REQUIRED:
-
 Android Studio(Min. required Artic Fox)
 
 
@@ -45,6 +44,7 @@ Step 6:Close the Android project.
 Program to Develop an application that uses Font Size using Android Studio .
 Developed by: MADHUMITHA M
 RegisterNumber:  212222220020
+D
 */
 ```
 
@@ -96,12 +96,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-
-
 public class MainActivity extends AppCompatActivity {
     int ch=1;
     float font=30;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
